@@ -1,14 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-.fixed {
-    position: fixed;
-    top: 0px;
-    height: 85px;
-    z-index: 5;
-    width: 100%;
-    background-color: #fff;
-}
 :root{
     --main-color-blue: #08526d;
     --main-color-red: #EC1D23;
