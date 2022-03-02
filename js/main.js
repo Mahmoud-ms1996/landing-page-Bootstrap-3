@@ -1,19 +1,6 @@
 $(function (){
     'use strict';
 
-    //navbar scroll to top
-    $(document).ready(function(){
-        $(window).bind('scroll', function() {
-        var navHeight = $( window ).height() - 151;
-        console.log(navHeight);
-              if ($(window).scrollTop() > navHeight) {
-                  $('.navbar').addClass('fixed');
-              }
-              else {
-                  $('.navbar').removeClass('fixed');
-              }
-         });
-     });
     // Adjust header Slider Img Height
     var imgHeight   = $(window).height(),
         navHeight   = $('.navbar').innerHeight(),
